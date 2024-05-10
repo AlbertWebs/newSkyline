@@ -47,7 +47,7 @@
                     <div class="dibiz-responsive-menu">
                         <div class="logo">
                             <a href="index.html">
-                                <img width="126" src="assets/img/logo/Skyline-white-logo.png" alt="logo">
+                                <img width="126" src="{{asset('theme/assets/img/logo/Skyline-white-logo.png')}}" alt="logo">
                             </a>
                         </div>
                     </div>

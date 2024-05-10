@@ -7,7 +7,7 @@
 
                                 </li>
 
-                                <li class="nav-item"><a href="#" class="nav-link">OUR SERVICES </a>
+                                <li class="nav-item"><a href="{{url('/')}}/our-services" class="nav-link">OUR SERVICES </a>
 
                                 </li>
 
@@ -15,7 +15,7 @@
 
                                 </li>
 
-                                <li class="nav-item"><a href="#" class="nav-link">NEWS & UPDATES </a>
+                                <li class="nav-item"><a href="{{url('/articles')}}" class="nav-link">NEWS & UPDATES </a>
 
                                 </li>
                                 <li class="nav-item"><a href="{{url('/')}}/contact-us" class="nav-link">CONTACT US </a>
