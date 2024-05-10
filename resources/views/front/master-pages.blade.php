@@ -39,15 +39,15 @@
         <!-- SEO -->
     </head>
     <body>
+
         <!-- Start Navbar Area -->
-        <div class="navbar-area dibiz-new-navbar-area-style-two">
+        <div class="navbar-area navbar-color-white">
             <div class="dibiz-responsive-nav">
-                <div class="container-fluid">
+                <div class="container">
                     <div class="dibiz-responsive-menu">
                         <div class="logo">
                             <a href="index.html">
-                                <img width="145" src="{{asset('theme/assets/img/logo/Skyline-logo.png')}}" class="main-logo" alt="logo">
-                                <img width="145" src="{{asset('theme/assets/img/logo/Skyline-white-logo.png')}}" class="white-logo" alt="logo">
+                                <img width="126" src="assets/img/logo/Skyline-white-logo.png" alt="logo">
                             </a>
                         </div>
                     </div>
@@ -55,17 +55,17 @@
             </div>
 
             <div class="dibiz-nav">
-                <div class="container-fluid">
+                <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.html">
-                            <img width="145" src="{{asset('theme/assets/img/logo/Skyline-logo.png')}}" class="main-logo" alt="logo">
-                            <img width="145" src="{{asset('theme/assets/img/logo/Skyline-white-logo.png')}}" class="white-logo" alt="logo">
+                        <a class="navbar-brand" href="{{url('/')}}">
+                            <img width="166" src="{{asset('theme/assets/img/logo/Skyline-white-logo.png')}}" alt="logo">
                         </a>
 
                         <div class="collapse navbar-collapse mean-menu">
-                            @include('front.menu')
+                           @include('front.menu')
 
                             <div class="others-option d-flex align-items-center">
+
 
                                 <div class="option-item">
                                     <div class="search-box">
@@ -73,17 +73,7 @@
                                     </div>
                                 </div>
 
-                                <div class="option-item">
-                                    <div class="search-box">
-                                        <i class="flaticon-phone"></i>
-                                    </div>
-                                </div>
 
-                                <div class="option-item">
-                                    <div class="side-menu-btn">
-                                        <i class="bx bx-menu-alt-left" data-bs-toggle="modal" data-bs-target="#sidebarModal"></i>
-                                    </div>
-                                </div>
                                 <div class="option-item">
                                     <div class="switch-box">
                                         <label id="switch" class="switch">
@@ -110,7 +100,8 @@
 
                     <div class="container">
                         <div class="option-inner">
-                            <div class="others-option d-flex align-items-center">
+                            <div class="others-option justify-content-center d-flex align-items-center">
+
 
                                 <div class="option-item">
                                     <div class="search-box">
@@ -118,11 +109,6 @@
                                     </div>
                                 </div>
 
-                                <div class="option-item">
-                                    <div class="side-menu-btn">
-                                        <i class="bx bx-menu-alt-left" data-bs-toggle="modal" data-bs-target="#sidebarModal"></i>
-                                    </div>
-                                </div>
                                 <div class="option-item">
                                     <div class="switch-box">
                                         <label id="switch" class="switch">
@@ -138,6 +124,7 @@
             </div>
         </div>
         <!-- End Navbar Area -->
+
 
 
 
