@@ -44,6 +44,16 @@ class HomeController extends Controller
 
     public function services($slung){
 
+        $Service = DB::table('services')->where('slung',$slung)->get();
+        foreach ($Service as $key => $value) {
+            $title = $value->title;
+            # code...
+            return view('front.services', compact('Service','title'));
+        }
+    }
+
+    public function servicesbk($slung){
+
         $Service = DB::table('cores')->where('slung',$slung)->get();
         foreach ($Service as $key => $value) {
             $title = $value->title;
@@ -52,6 +62,17 @@ class HomeController extends Controller
         }
     }
 
+    public function sectors(){
+        $Sectors = DB::table('sectors')->get();
+        $title = "Our Blog";
+        return view('front.sectors', compact('title','Sectors'));
+    }
+
+    public function solutions($slung){
+        $Solutions = DB::table('solutions')->where('slung', $slung)->get();
+        $title = "Our Blog";
+        return view('front.solutions', compact('title','Solutions'));
+    }
 
     public function articles(){
         $Blog = DB::table('blogs')->get();

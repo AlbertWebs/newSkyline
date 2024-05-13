@@ -323,8 +323,8 @@ class ComposerStaticInit0312b698da12043d3253fe69850dc2e8
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -521,7 +521,9 @@ class ComposerStaticInit0312b698da12043d3253fe69850dc2e8
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Models\\Blog' => __DIR__ . '/../..' . '/app/Models/Blog.php',
         'App\\Models\\Core' => __DIR__ . '/../..' . '/app/Models/Core.php',
+        'App\\Models\\Sector' => __DIR__ . '/../..' . '/app/Models/Sector.php',
         'App\\Models\\Servive' => __DIR__ . '/../..' . '/app/Models/Servive.php',
+        'App\\Models\\Solution' => __DIR__ . '/../..' . '/app/Models/Solution.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',

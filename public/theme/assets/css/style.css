@@ -63,10 +63,10 @@ Default CSS
 :root {
   --fontFamily: "Nunito", sans-serif;
   --mainColor: #241571;
-  --optionalColor: #4b5280;
+  --optionalColor: #000000;
   --whiteColor: #ffffff;
   --blackColor: #080e32;
-  --fontSize: 16px;
+  --fontSize: 18px;
   --transition: .5s;
   --fontFamily-2: "Kumbh Sans", sans-serif;
   --mainColor-2: #5F2DEE;
@@ -7932,7 +7932,7 @@ New Demo CSS
 }
 
 .section-title.with-gradient-color h2 {
-  background: linear-gradient(to left, #04c8eb, #00aff3, #241571, #241571, #241571); 
+  background: linear-gradient(to left, #04c8eb, #00aff3, #241571, #241571, #241571);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -9860,11 +9860,12 @@ New Demo CSS
   position: absolute;
   bottom: 5px;
   width: 100%;
-  padding: 30px 90px 30px 35px;
+  /* padding: 30px 90px 30px 35px; */
   transition: var(--transition);
 }
 .dibiz-case-studies-card.with-style-two .content h3 a {
   color: var(--whiteColor);
+  text-transform: uppercase;
 }
 .dibiz-case-studies-card.with-style-two .content .icon {
   right: 30px;
@@ -11480,14 +11481,14 @@ Blog Area CSS
 Page Banner Area CSS
 =================================================*/
 .page-banner-area {
-  background-image: url(../../assets/img/startup-it-agency/page-banner-bg.jpg);
+  /* background-image: url(../../assets/img/startup-it-agency/page-banner-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   z-index: 1;
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 120px; */
 }
 .page-banner-area::before {
   position: absolute;
@@ -15015,5 +15016,10 @@ Footer Area CSS
 }
 .border-radius{
   border-radius:10px;
+}
+.font-16{
+    font-size:16px;
+    width:100% !important;
+    padding:0px;
 }
 /* End "Data Science & Analytics Demo", "CSS" *//*# sourceMappingURL=style.css.map */

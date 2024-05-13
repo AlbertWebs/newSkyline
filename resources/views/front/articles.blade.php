@@ -2,10 +2,18 @@
 
 @section('content')
 <!-- Start Page Title Area -->
-<section class="page-title-area">
+<section class="page-title-area page-banner-area" style="background-image: url('{{url('/')}}/theme/assets/img/ICI-Career-in-Public-Relations-and-Media.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    /* padding-top: 120px;
+    padding-bottom: 120px; */
+    ">
     <div class="container">
         <div class="page-title-content">
-            <h1>Our Services</h1>
+            <h1>Knowledge Base</h1>
         </div>
     </div>
 

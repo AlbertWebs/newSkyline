@@ -43,56 +43,7 @@
 </section>
 <!-- End Main Banner Area -->
 
-<!-- Start New Main Banner Area -->
-<!-- <section class="new-main-banner-wrap-area">
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-lg-6 col-md-12">
-                <div class="new-main-banner-wrap-content">
-                    <span class="sub-title wow animate__animated animate__fadeInLeft" data-wow-delay="00ms" data-wow-duration="1000ms">GROWTH YOUR BUSINESS</span>
-                    <h1 class="wow animate__animated animate__fadeInLeft" data-wow-delay="00ms" data-wow-duration="1000ms">Public <span>Relations</span> Specialists</h1>
-                    <p class="wow animate__animated animate__fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
 
-                        Skyline Group is a premier global advisory and consultancy firm dedicated to empowering
-                        businesses in Africa. We are catalysts for transformative change dedicated to elevating business
-                        in Africa through Strategic communication and PR,visionary leadership and sustainable
-                        strategies. We leverage our global networks, business intelligence, and comprehensive market
-                        insights to guide our partners towards unparalleled success.
-
-                    </p>
-                    <div class="btn-box wow animate__animated animate__fadeInLeft" data-wow-delay="300ms" data-wow-duration="1000ms">
-                        <a href="contact.html" class="default-btn-with-radius">Get Started <i class="flaticon-next-button"></i></a>
-                        <a href="tel:+254 (71) 076 0015" class="phone-btn"><i class='bx bxs-phone-call'></i> +254 (71) 076 0015</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-md-12">
-                <div class="new-main-banner-wrap-image wow animate__animated animate__fadeInRight" data-wow-delay="300ms" data-wow-duration="1000ms">
-                    <img src="{{asset('theme/assets/img/more-home/banner/ICI-Career-in-Public-Relations-and-Media.jpg')}}" alt="image">
-
-                    <div class="wrap-circle-shape">
-                        <img src="{{asset('theme/assets/img/more-home/banner/circle-shape.png')}}" alt="image">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <svg style="display:none;">
-        <defs>
-            <filter id="stroke-text">
-                <feMorphology radius="1" operator="dilate"></feMorphology>
-                <feComposite operator="xor" in="SourceGraphic"/>
-            </filter>
-        </defs>
-    </svg>
-
-    <div class="new-main-banner-wrap-shape">
-        <img width="100" src="{{asset('theme/assets/img/shape/shape14.png')}}" alt="image">
-    </div>
-</section> -->
-<!-- End New Main Banner Area -->
 
  <!-- Start Dibiz Case Studies Area -->
  <div class="dibiz-case-studies-area-without-color ptb-100">
@@ -103,50 +54,25 @@
         </div>
 
         <div class="row justify-content-center">
+            <?php
+               $Services = DB::table('services')->get();
+            ?>
+            @foreach ($Services as $service)
             <div class="col-lg-4 col-md-6">
-                <div class="dibiz-case-studies-card with-style-two wow animate__animated animate__fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms">
-                    <a href="single-portfolio.html"><img src="{{asset('theme/assets/img/Pr-Marketing-Communication.jpg')}}" alt="image"></a>
+                <div class="dibiz-case-studies-card with-style-two wow animate__animated animate__fadeInUp" data-wow-delay="{{$service->id}}00ms" data-wow-duration="{{$service->id}}000ms">
+                    <a href="single-portfolio.html"><img src="{{url('/')}}/uploads/services/{{$service->image}}" alt="image"></a>
 
                     <div class="content">
                         <h3>
-                            <a href="#">Pr & Marketing Communication</a>
+                            <a href="{{url('/')}}/our-services/{{$service->slung}}">{{$service->title}}</a>
                         </h3>
                         <div class="icon">
-                            <a href="#"><i class="flaticon-next-button"></i></a>
+                            <a href="{{url('/')}}/our-services/{{$service->slung}}"><i class="flaticon-next-button"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="dibiz-case-studies-card with-style-two wow animate__animated animate__fadeInUp" data-wow-delay="250ms" data-wow-duration="1000ms">
-                    <a href="single-portfolio.html"><img src="{{asset('theme/assets/img/Business-Consulting.jpg')}}" alt="image"></a>
-
-                    <div class="content">
-                        <h3>
-                            <a href="#">Business Consulting And Advisory Services</a>
-                        </h3>
-                        <div class="icon">
-                            <a href="#"><i class="flaticon-next-button"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="dibiz-case-studies-card with-style-two wow animate__animated animate__fadeInUp" data-wow-delay="500ms" data-wow-duration="1000ms">
-                    <a href="single-portfolio.html"><img src="{{asset('theme/assets/img/Communication-Sustainable-Leadership.jpg')}}" alt="image"></a>
-
-                    <div class="content">
-                        <h3>
-                            <a href="#">Communication & Sustainable Leadership</a>
-                        </h3>
-                        <div class="icon">
-                            <a href="#"><i class="flaticon-next-button"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @endforeach
 
 
 
@@ -154,7 +80,7 @@
     </div>
 
     <div class="dibiz-case-studies-bottom-text">
-        <a href="portfolio-1.html">Learn More</a>
+        <a href="{{url('/')}}/our-services">Learn More</a>
     </div>
 </div>
 <!-- End Dibiz Case Studies Area -->

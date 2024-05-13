@@ -35,14 +35,14 @@
 
             <div class="col-lg-2 col-md-6 col-sm-6">
                 <div class="single-footer-widget ps-5">
-                    <h3>Services</h3>
-
+                    <h3>Sectors</h3>
+                    <?php
+                        $Sectors = DB::table('sectors')->inRandomOrder()->limit('6')->get(); $counter = 1;
+                    ?>
                     <ul class="footer-links-list">
-                        <li><a href="#">Our pricing</a></li>
-                        <li><a href="#">Team members</a></li>
-                        <li><a href="#">Deep learning</a></li>
-                        <li><a href="#">Data visualization</a></li>
-                        <li><a href="#">Data analytics</a></li>
+                        @foreach ($Sectors as $sector)
+                        <li><a href="#">{{$sector->title}}</a></li>
+                        @endforeach
                     </ul>
                 </div>
             </div>
@@ -81,7 +81,9 @@
     </div>
 
     <div class="footer-bottom-area">
-        <p>© Skyline Group Limited All Rights Reserved | Powered By <a href="https://designekta.com/" target="_blank">Designekta Studios</a></p>
+        <p>© Skyline Group Limited All Rights Reserved
+            {{-- | Powered By <a href="https://designekta.com/" target="_blank">Designekta Studios</a> --}}
+        </p>
     </div>
     <div class="shape16"><img src="{{asset('theme/assets/img/shape/shape16.png')}}" alt="image"></div>
 </footer>
