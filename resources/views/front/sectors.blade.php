@@ -45,7 +45,7 @@
             ?>
             @foreach ($Services as $service)
             <div class="col-lg-3 col-md-6">
-                <div class="dibiz-case-studies-card with-style-two wow animate__animated animate__fadeInUp" data-wow-delay="{{$service->id}}00ms" data-wow-duration="{{$service->id}}000ms">
+                <div class="dibiz-case-studies-card with-style-two wow animate__animated animate__fadeInUp" data-wow-delay="{{$service->id}}0ms" data-wow-duration="{{$service->id}}00ms">
                     <a href="#"><img src="{{url('/')}}/uploads/sectors/{{$service->image}}" alt="image"></a>
 
                     <div class="content">
