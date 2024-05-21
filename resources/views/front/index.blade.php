@@ -1,8 +1,50 @@
 @extends('front.master')
 
 @section('content')
+
  <!-- Start Main Banner Area -->
- <section class="main-banner-area">
+ <section class="banner-wrapper-area">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <div class="banner-wrapper-content">
+                    <div class="content">
+                        <span class="sub-title" style="color:#ffffff">
+                            Corporate Branding Beyond Africa
+                        </span>
+                        <h1>We Are Skyline Group</h1>
+                        <p>
+                            Skyline Group is a premier global advisory and consultancy firm dedicated to empowering businesses in Africa. We are catalysts for transformative change dedicated to elevating business in Africa through Strategic communication and PR,visionary leadership and sustainable strategies. We leverage our global networks, business intelligence, and comprehensive market insights to guide our partners towards unparalleled success.
+                        </p>
+                        <div class="btn-box">
+                            <div class="d-flex align-items-center">
+                                <a href="contact.html" class="default-btn">Get Started</a>
+                                <!-- <a href="https://www.youtube.com/watch?v=Y5KCDWi7h9o" class="video-btn popup-youtube"><i class="flaticon-play-button"></i> Watch Video</a> -->
+                                &nbsp; &nbsp; &nbsp;
+                                <a href="tel:+254 (71) 076 0015" class="video-btn" style="font-size:20px; color:#ffffff"><i class='bx bxs-phone-call'></i> +254 (71) 076 0015</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12">
+                <div class="main-banner-image">
+                    <img src="{{asset('theme/assets/img/ICI-Career-in-Public-Relations-and-Media.jpg')}}" alt="image">
+                    <div class="divider"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="shape1"><img src="{{asset('theme/assets/img/shape/shape1.png')}}" alt="image"></div>
+</section>
+<!-- End Main Banner Area -->
+
+
+ <!-- Start Main Banner Area -->
+{{-- <section class="main-banner-area">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-6 col-md-12">
@@ -17,7 +59,6 @@
                     <div class="btn-box">
                         <div class="d-flex align-items-center">
                             <a href="contact.html" class="default-btn">Get Started</a>
-                            <!-- <a href="https://www.youtube.com/watch?v=Y5KCDWi7h9o" class="video-btn popup-youtube"><i class="flaticon-play-button"></i> Watch Video</a> -->
                             <a href="tel:+254 (71) 076 0015" class="video-btn" style="font-size:20px"><i class='bx bxs-phone-call'></i> +254 (71) 076 0015</a>
                         </div>
                     </div>
@@ -33,14 +74,7 @@
     </div>
 
     <div class="shape1"><img src="{{asset('theme/assets/img/shape/shape1.png')}}" alt="image"></div>
-    <!-- <div class="shape2"><img src="{{asset('theme/assets/img/shape/shape2.png')}}" alt="image"></div>
-    <div class="shape3"><img src="{{asset('theme/assets/img/shape/shape3.png')}}" alt="image"></div> -->
-    <div class="shape4"><img src="{{asset('theme/assets/img/shape/shape4.png')}}" alt="image"></div>
-    <!-- <div class="shape5"><img src="{{asset('theme/assets/img/shape/shape5.png')}}" alt="image"></div>
-    <div class="shape6"><img src="{{asset('theme/assets/img/shape/shape6.png')}}" alt="image"></div>
-    <div class="shape7"><img src="{{asset('theme/assets/img/shape/shape7.png')}}" alt="image"></div>
-    <div class="shape8"><img src="{{asset('theme/assets/img/shape/shape8.png')}}" alt="image"></div> -->
-</section>
+</section> --}}
 <!-- End Main Banner Area -->
 
 
