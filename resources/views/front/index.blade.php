@@ -260,76 +260,57 @@
 
 
 
-<!-- Start Dibiz Clients Area -->
-<div class="dibiz-clients-area bg-F7F8FF ptb-100">
+
+
+
+<!-- Start Dibiz Partner Area -->
+<section class="dibiz-partner-area-with-color pt-100 pb-75">
     <div class="container">
-        <div class="section-title with-gradient-color">
-            <span class="sub-title">TESTIMONIALS</span>
-            <h2>What Our Clients Are Saying?</h2>
-        </div>
-
-        <div class="dibiz-clients-slides owl-carousel owl-theme">
-            <div class="dibiz-clients-card wow animate__animated animate__fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
-                <div class="client-info">
-                    <!-- <img src="{{asset('theme/assets/img/more-home/clients/clients-1.png')}}" alt="image"> -->
-                    <div class="title">
-                        <h3>Director</h3>
-                        <span>Nairobi Bespoke Tailoring</span>
-                    </div>
+        <div class="row align-items-center">
+            <div class="col-lg-2 col-6 col-sm-4 col-md-4">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="https://skylinepublicrelations.com/theme/img/LRI-Secondary-Horz-Color-Mobile.png" alt="image"></a>
                 </div>
-                <p>“Working with Skyline PR has been a game-changer for our fashion brand's positioning in the market. Their strategic insight and creative approach have not only elevated our brand image but also significantly improved our market presence. The team's deep understanding of the fashion industry, combined with their relentless dedication, has resulted in a brand positioning that truly resonates with our target audience. Skyline PR has not only met but exceeded our expectations, and we couldn't be happier with the results. They have become an indispensable partner in our journey towards fashion excellence.”</p>
-                <ul class="rating">
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                </ul>
             </div>
 
-            <div class="dibiz-clients-card wow animate__animated animate__fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
-                <div class="client-info">
-                    <!-- <img src="{{asset('theme/assets/img/more-home/clients/clients-2.png')}}" alt="image"> -->
-                    <div class="title">
-                        <h3>Director</h3>
-                        <span>Ascend Tech House</span>
-                    </div>
+            <div class="col-lg-2 col-6 col-sm-4 col-md-4">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="https://skylinepublicrelations.com/theme/img/IMG-20220816-WA0003-removebg-preview.png" alt="image"></a>
                 </div>
-                <p>“Skyline PR has been an invaluable partner in helping our IT company establish a distinctive brand positioning in a crowded marketplace. Their strategic expertise, coupled with a deep understanding of our industry, has allowed us to craft a unique identity that truly resonates with our target audience. The team at Skyline PR is not just a service provider; they are trusted advisors who go above and beyond to ensure our brand stands out and thrives. Thanks to their unwavering support, our company has achieved remarkable success in a short span of time, and we couldn't be happier with the results .”</p>
-                <ul class="rating">
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                </ul>
             </div>
 
-            <div class="dibiz-clients-card wow animate__animated animate__fadeInUp" data-wow-delay="500ms" data-wow-duration="1000ms">
-                <div class="client-info">
-                    <!-- <img src="{{asset('theme/assets/img/more-home/clients/clients-3.png')}}" alt="image"> -->
-                    <div class="title">
-                        <h3>INVESTMENT FIRM DIRECTOR</h3>
-                        <span>Redmark</span>
-                    </div>
+            <div class="col-lg-2 col-6 col-sm-4 col-md-4">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="https://skylinepublicrelations.com/theme/img/IMG-20220816-WA0004-removebg-preview.png" alt="image"></a>
                 </div>
-                <p>“Skyline Public Relations has helped the client boost their brand visibility and online presence. The service provider suggests good ideas, preempts issues, and charges the client reasonably. Moreover, they are always available and promptly respond to the client's queries and concerns.They are quick and prompt in responding to items and assignments requiring their input”</p>
-                <ul class="rating">
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                    <li><i class='bx bxs-star'></i></li>
-                </ul>
             </div>
+
+            <div class="col-lg-2 col-6 col-sm-4 col-md-4">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="https://skylinepublicrelations.com/theme/img/image-removebg-preview-5.png" alt="image"></a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-6 col-sm-4 col-md-4">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms">
+                    <a href="#"><img style="width:130px;" src="https://findafundi.com/wp-content/uploads/2023/10/Logo-1.png" alt="image"></a>
+                </div>
+            </div>
+
+
+
+            <div class="col-lg-2 col-6 col-sm-4 col-md-4">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="{{asset('theme/assets/img/WMLogo.png')}}" alt="image"></a>
+                </div>
+            </div>
+
+
+
         </div>
     </div>
-</div>
-<!-- End Dibiz Clients Area -->
-
-
-
-
+    </section>
+    <!-- End  Dibiz Partner Area -->
 
 
 
@@ -414,52 +395,5 @@
 <!-- End Dibiz Blog Area -->
 
 
-<!-- Start Dibiz Partner Area -->
-<section class="dibiz-partner-area-with-color pt-100 pb-75">
-<div class="container">
-    <div class="row align-items-center">
-        <div class="col-lg-2 col-6 col-sm-4 col-md-4">
-            <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms">
-                <a href="#"><img src="https://skylinepublicrelations.com/theme/img/LRI-Secondary-Horz-Color-Mobile.png" alt="image"></a>
-            </div>
-        </div>
 
-        <div class="col-lg-2 col-6 col-sm-4 col-md-4">
-            <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
-                <a href="#"><img src="https://skylinepublicrelations.com/theme/img/IMG-20220816-WA0003-removebg-preview.png" alt="image"></a>
-            </div>
-        </div>
-
-        <div class="col-lg-2 col-6 col-sm-4 col-md-4">
-            <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
-                <a href="#"><img src="https://skylinepublicrelations.com/theme/img/IMG-20220816-WA0004-removebg-preview.png" alt="image"></a>
-            </div>
-        </div>
-
-        <div class="col-lg-2 col-6 col-sm-4 col-md-4">
-            <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
-                <a href="#"><img src="https://skylinepublicrelations.com/theme/img/image-removebg-preview-5.png" alt="image"></a>
-            </div>
-        </div>
-
-        <div class="col-lg-2 col-6 col-sm-4 col-md-4">
-            <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms">
-                <a href="#"><img style="width:130px;" src="https://findafundi.com/wp-content/uploads/2023/10/Logo-1.png" alt="image"></a>
-            </div>
-        </div>
-
-
-
-        <div class="col-lg-2 col-6 col-sm-4 col-md-4">
-            <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
-                <a href="#"><img src="{{asset('theme/assets/img/WMLogo.png')}}" alt="image"></a>
-            </div>
-        </div>
-
-
-
-    </div>
-</div>
-</section>
-<!-- End  Dibiz Partner Area -->
 @endsection

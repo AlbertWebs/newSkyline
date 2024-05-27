@@ -97,7 +97,7 @@ a {
   outline: 0 !important;
 }
 a:hover {
-  color: var(--mainColor);
+  color: #f1f1f1;
   text-decoration: none;
 }
 
@@ -3131,7 +3131,7 @@ Testimonials Area CSS
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../../assets/img/testimonials-img.jpg);
+  background-image: url('https://skylinepublicrelations.com/uploads/services/corporate-pr-1.jpg');
 }
 .testimonials-image img {
   display: none;
@@ -9879,7 +9879,7 @@ New Demo CSS
   bottom: 10px;
 }
 .dibiz-case-studies-card.with-style-two:hover .content h3 a {
-  color: var(--mainColor);
+  color: #f1f1f1;
 }
 .dibiz-case-studies-card.with-style-two:hover .content .icon {
   right: 30px;
@@ -11500,7 +11500,7 @@ Page Banner Area CSS
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: -1;
   opacity: 0.85;
 }
