@@ -269,6 +269,8 @@
                 <div class="project-start-content">
                     <span class="sub-title">Partners</span>
                     <h2>Woke Media </h2>
+                    <h5>New York
+                    </h5>
                     <p>
                         Woke Media LLC is a leading full-service, boutique public relations and event production company, founded in Feb 2018 by long-time entertainment industry vet, Jess Poulin. Striving to bring big agency creativity along with personal client attention to every account, our primarily women-led team works hand-in-hand with each of our clients in order to bring to life some of the industry’s most thought provoking and conversation starting activations across art, music, health & wellness, fashion, film, tech, and cannabis.
                        <br><br>

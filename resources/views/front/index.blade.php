@@ -94,7 +94,7 @@
             @foreach ($Services as $service)
             <div class="col-lg-4 col-md-6">
                 <div class="dibiz-case-studies-card with-style-two wow animate__animated animate__fadeInUp" data-wow-delay="{{$service->id}}00ms" data-wow-duration="{{$service->id}}000ms">
-                    <a href="single-portfolio.html"><img src="{{url('/')}}/uploads/services/{{$service->image}}" alt="image"></a>
+                    <a href="single-portfolio.html"><img style="min-height:416px" src="{{url('/')}}/uploads/services/{{$service->image}}" alt="image"></a>
 
                     <div class="content">
                         <h3>
