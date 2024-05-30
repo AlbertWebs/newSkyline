@@ -299,9 +299,45 @@
 
 
 
+
+
+            {{--  --}}
             <div class="col-lg-2 col-6 col-sm-4 col-md-4">
                 <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
-                    <a href="#"><img src="{{asset('theme/assets/img/WMLogo.png')}}" alt="image"></a>
+                    <a href="#"><img src="{{url('/')}}/uploads/clients/BK-Brandmark-2-Lead.png" alt="image"></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 col-md-4">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="{{url('/')}}/uploads/clients/ELI_logoHorz_onblue crop.png" alt="image"></a>
+                </div>
+            </div>
+            {{-- <div class="col-lg-2 col-6 col-sm-4 col-md-4">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="{{url('/')}}/uploads/clients/imsk-kenya-logo-e1693146781864-120x134.png" alt="image"></a>
+                </div>
+            </div> --}}
+            {{-- <div class="col-lg-2 col-6 col-sm-4 col-md-4">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="{{url('/')}}/uploads/clients/Designekta-Enterprises-logo-profile.jpg" alt="image"></a>
+                </div>
+            </div> --}}
+
+
+            <div class="col-lg-2 col-6 col-sm-4 col-md-4">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="{{url('/')}}/uploads/clients/Indutry-banner.jpg" alt="image"></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 col-md-4">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="{{url('/')}}/uploads/clients/logo.webp" alt="image"></a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-6 col-sm-4 col-md-4">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="{{url('/')}}/uploads/clients/LogoWebRetina.png" alt="image"></a>
                 </div>
             </div>
 

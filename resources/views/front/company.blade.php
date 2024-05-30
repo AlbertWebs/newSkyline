@@ -296,32 +296,76 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-2 col-6 col-sm-4 col-md-4">
-                <div class="single-partner-item">
-                    <img src="https://skylinepublicrelations.com/theme/img/LRI-Secondary-Horz-Color-Mobile.png" alt="image">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="https://skylinepublicrelations.com/theme/img/LRI-Secondary-Horz-Color-Mobile.png" alt="image"></a>
                 </div>
             </div>
 
             <div class="col-lg-2 col-6 col-sm-4 col-md-4">
-                <div class="single-partner-item">
-                    <img src="https://skylinepublicrelations.com/theme/img/IMG-20220816-WA0003-removebg-preview.png" alt="image">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="https://skylinepublicrelations.com/theme/img/IMG-20220816-WA0003-removebg-preview.png" alt="image"></a>
                 </div>
             </div>
 
             <div class="col-lg-2 col-6 col-sm-4 col-md-4">
-                <div class="single-partner-item">
-                    <img src="https://skylinepublicrelations.com/theme/img/IMG-20220816-WA0004-removebg-preview.png" alt="image">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="https://skylinepublicrelations.com/theme/img/IMG-20220816-WA0004-removebg-preview.png" alt="image"></a>
                 </div>
             </div>
 
             <div class="col-lg-2 col-6 col-sm-4 col-md-4">
-                <div class="single-partner-item">
-                    <img src="https://skylinepublicrelations.com/theme/img/image-removebg-preview-5.png" alt="image">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="https://skylinepublicrelations.com/theme/img/image-removebg-preview-5.png" alt="image"></a>
                 </div>
             </div>
 
             <div class="col-lg-2 col-6 col-sm-4 col-md-4">
-                <div class="single-partner-item">
-                    <img src="https://findafundi.com/wp-content/uploads/2023/10/Logo-1.png" alt="image">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms">
+                    <a href="#"><img style="width:130px;" src="https://findafundi.com/wp-content/uploads/2023/10/Logo-1.png" alt="image"></a>
+                </div>
+            </div>
+
+
+
+
+
+            {{--  --}}
+            <div class="col-lg-2 col-6 col-sm-4 col-md-4">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="{{url('/')}}/uploads/clients/BK-Brandmark-2-Lead.png" alt="image"></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 col-md-4">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="{{url('/')}}/uploads/clients/ELI_logoHorz_onblue crop.png" alt="image"></a>
+                </div>
+            </div>
+            {{-- <div class="col-lg-2 col-6 col-sm-4 col-md-4">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="{{url('/')}}/uploads/clients/imsk-kenya-logo-e1693146781864-120x134.png" alt="image"></a>
+                </div>
+            </div> --}}
+            {{-- <div class="col-lg-2 col-6 col-sm-4 col-md-4">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="{{url('/')}}/uploads/clients/Designekta-Enterprises-logo-profile.jpg" alt="image"></a>
+                </div>
+            </div> --}}
+
+
+            <div class="col-lg-2 col-6 col-sm-4 col-md-4">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="{{url('/')}}/uploads/clients/Indutry-banner.jpg" alt="image"></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 col-md-4">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="{{url('/')}}/uploads/clients/logo.webp" alt="image"></a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-6 col-sm-4 col-md-4">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="{{url('/')}}/uploads/clients/LogoWebRetina.png" alt="image"></a>
                 </div>
             </div>
         </div>
