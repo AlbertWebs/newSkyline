@@ -11,10 +11,10 @@
                         Skyline public relations agency is a top leading public relations and corporate branding consultancy firm that focuses on positioning organizations, individuals’ , brands and businesses in the corporate world. We believe in creating compelling stories that are impossible to forget.
                     </p>
                     <ul class="social-link">
-                        <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-facebook'></i></a></li>
-                        <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-twitter'></i></a></li>
-                        <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-instagram'></i></a></li>
-                        <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
+                        <li><a href="https://web.facebook.com/skylinepragency" class="d-block" target="_blank"><i class='bx bxl-facebook'></i></a></li>
+                        {{-- <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-twitter'></i></a></li> --}}
+                        <li><a href="https://www.instagram.com/skylinepublicrelations/" class="d-block" target="_blank"><i class='bx bxl-instagram'></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/skyline-public-relations-agency/mycompany/" class="d-block" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
                     </ul>
                 </div>
             </div>
