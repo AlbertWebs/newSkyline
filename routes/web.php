@@ -20,8 +20,10 @@ Route::get('/center-of-excellence', [App\Http\Controllers\HomeController::class,
 Route::get('/our-services', [App\Http\Controllers\HomeController::class, 'excellence'])->name('excellence');
 Route::get('/our-services/{slung}', [App\Http\Controllers\HomeController::class, 'services'])->name('services');
 Route::get('/our-services/solutions/{slung}', [App\Http\Controllers\HomeController::class, 'solutions'])->name('solutions');
+Route::get('/our-services', [App\Http\Controllers\HomeController::class, 'excellence'])->name('excellence');
 
-Route::get('/sectors', [App\Http\Controllers\HomeController::class, 'sectors'])->name('sectors');
+
+Route::get('/center-of-excellence', [App\Http\Controllers\HomeController::class, 'services_fix'])->name('sectors');
 
 Route::get('/services/{slung}', [App\Http\Controllers\HomeController::class, 'services'])->name('services');
 Route::get('/center-of-excellence/{slung}', [App\Http\Controllers\HomeController::class, 'excellences'])->name('excellences');

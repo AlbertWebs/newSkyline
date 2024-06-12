@@ -52,6 +52,18 @@ class HomeController extends Controller
         }
     }
 
+    public function services_fix(){
+        $slung = "pr-and-marketing-communication";
+        $Service = DB::table('services')->where('slung',$slung)->get();
+        foreach ($Service as $key => $value) {
+            $title = $value->title;
+            # code...
+            return view('front.services', compact('Service','title'));
+        }
+    }
+
+
+
     public function servicesbk($slung){
 
         $Service = DB::table('cores')->where('slung',$slung)->get();
