@@ -28,8 +28,13 @@ class HomeController extends Controller
     }
 
     public function excellence(){
-        $title = " PR AND COMMUNICATION Services ";
-        return view('front.excellence', compact('title'));
+        $slung = "pr-and-marketing-communication";
+        $Service = DB::table('services')->where('slung',$slung)->get();
+        foreach ($Service as $key => $value) {
+            $title = $value->title;
+            # code...
+            return view('front.services', compact('Service','title'));
+        }
     }
 
     public function excellences($slung){
