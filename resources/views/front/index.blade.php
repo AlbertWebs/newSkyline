@@ -260,9 +260,6 @@
 
 
 
-
-
-
 <!-- Start Dibiz Partner Area -->
 <section class="dibiz-partner-area-with-color pt-100 pb-75">
     <div class="container">
