@@ -54,7 +54,7 @@
                         </div>
                         <div class="col-lg-6 col-md-12">
 
-                                <img src="{{asset('theme/assets/img/ICI-Career-in-Public-Relations-and-Media.jpg')}}" alt="image">
+                                <img src="{{url('/')}}/uploads/services/solutions/{{$solutions->image}}" alt="image">
 
                         </div>
                     </div>

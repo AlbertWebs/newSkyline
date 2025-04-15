@@ -128,7 +128,15 @@
                     <span>About Us</span>
                     <h3>Where Communication Meets the Horizon: Skyline Group</h3>
                     <p>
-                        At Skyline Group, we empower through innovative communication strategies, driven by sustainability, passion, and transformative change. Our core values of integrity, collaboration, and excellence guide us towards continuous learning and customer-centricity, shaping narratives for positive impact.
+                        Skyline PR Group is a leading Pan-African Integrated Marketing Communications (IMC) and
+                        Creative Agency specializing in Public Relations, Marketing, Digital communication, and
+                        Creative Communication. Our mission is to empower businesses and brands across the
+                        continent by delivering impactful PR strategies, innovative creative solutions, and tailored
+                        marketing campaigns, all grounded in sustainable leadership principles.
+                        <br><br>
+                        By harnessing our expansive global networks, cutting-edge business intelligence, and deep
+                        market expertise, we deliver tailored solutions that drive impact and unlock growth. At Skyline
+                        PR Group, we don’t just secure your brand’s future—we elevate and amplify it to new heights.
                     </p>
 
                     <ul class="accordion">
@@ -139,10 +147,12 @@
                             </a>
 
                             <div class="accordion-content show">
-                                <p>To be a premier global advisory and consultancy firm dedicated to empowering businesses in
-                                    Africa by 2035. We serve as catalysts for transformative change, committed to elevating
-                                    businesses in Africa through strategic communication and PR, visionary leadership, and
-                                    sustainable strategies</p>
+                                <p>
+                                    To be a premier global advisory and consultancy firm, empowering businesses across Africa by
+                                    2035. We drive transformative change through strategic communication and public relations,
+                                    business development and visionary leadership, delivering sustainable solutions that elevate and
+                                    strengthen African enterprises.
+                                </p>
                             </div>
                         </li>
 
@@ -154,8 +164,9 @@
 
                             <div class="accordion-content">
                                 <p>
-                                    Our Mission is to empower businesses in Africa, driving transformative change and fostering
-                                     sustainable growth through strategic communication and visionary leadership.
+                                    To empower African businesses by driving transformative change and fostering sustainable
+                                    growth through innovative communication strategies, business development and visionary
+                                    leadership.
                                 </p>
                             </div>
                         </li>

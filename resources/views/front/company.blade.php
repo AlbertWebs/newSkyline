@@ -42,11 +42,9 @@
                         Corporate Branding Beyond Africa
                     </h3>
                     <p>
-                        Skyline Group is a premier global advisory and consultancy firm dedicated to empowering
-                            businesses in Africa. We are catalysts for transformative change dedicated to elevating business
-                            in Africa through Strategic communication and PR,visionary leadership and sustainable
-                            strategies. We leverage our global networks, business intelligence, and comprehensive market
-                            insights to guide our partners towards unparalleled success.
+                        Skyline PR Group is a leading Pan-African Integrated Marketing Communications (IMC) and Creative Agency specializing in Public Relations, Marketing, Digital communication, and Creative Communication. Our mission is to empower businesses and brands across the continent by delivering impactful PR strategies, innovative creative solutions, and tailored marketing campaigns, all grounded in sustainable leadership principles.
+                     <br><br>
+                        By harnessing our expansive global networks, cutting-edge business intelligence, and deep market expertise, we deliver tailored solutions that drive impact and unlock growth. At Skyline PR Group, we don’t just secure your brand’s future—we elevate and amplify it to new heights.
                     </p>
 
                     <ul class="accordion">
@@ -57,10 +55,9 @@
                             </a>
 
                             <div class="accordion-content show">
-                                <p>To be a premier global advisory and consultancy firm dedicated to empowering businesses in
-                                    Africa by 2035. We serve as catalysts for transformative change, committed to elevating
-                                    businesses in Africa through strategic communication and PR, visionary leadership, and
-                                    sustainable strategies</p>
+                                <p>
+                                    To be a premier global advisory and consultancy firm, empowering businesses across Africa by 2035. We drive transformative change through strategic communication and public relations, business development and visionary leadership, delivering sustainable solutions that elevate and strengthen African enterprises.
+                                </p>
                             </div>
                         </li>
 
@@ -72,8 +69,7 @@
 
                             <div class="accordion-content">
                                 <p>
-                                    Our Mission is to empower businesses in Africa, driving transformative change and fostering
-                                     sustainable growth through strategic communication and visionary leadership.
+                                    To empower African businesses by driving transformative change and fostering sustainable growth through innovative communication strategies, business development and visionary leadership.
                                 </p>
                             </div>
                         </li>
@@ -115,6 +111,54 @@
     </div>
 </div>
 <!-- End Dibiz What We Do Area -->
+
+   <!-- Start Dibiz Solutions Area -->
+   <div class="dibiz-solutions-area ptb-100">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12">
+                <div class="dibiz-solutions-image">
+                    <img class="border-radius" src="{{asset('theme/assets/img/pexels-pixabay-265087.jpg')}}" alt="image">
+
+                    <a href="https://www.youtube.com/watch?v=PWvPbGWVRrU" class="video-btn popup-youtube">
+                        <i class="flaticon-play-button"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12">
+                <div class="dibiz-solutions-content">
+                    <span>Our areas of expertise include :</span>
+
+                    <p>
+                        {{--  --}}
+                        We specialize in delivering tailored <strong> public relations, content creation, digital communication,
+                        and marketing solutions for businesses, NGOs, sports, and entertainment industries, both
+                        locally and globally</strong>. We focus on enhancing brand positioning, increasing brand visibility,
+                        crafting compelling narratives, and building strategic relationships to elevate your presence in
+                        the market.
+                        <br><br>
+
+                        <strong>PR and Marketing Communication services:</strong> Corporate Branding, Market research, Digital
+                        communication and Digital marketing, Social media communication, Public relations campaigns,
+                        Media Relations, Advertising campaigns, Creative design and video production, Website design,
+                        Advocacy communication, Events Branding and CSR.<br><br>
+
+                        <strong>Business Development:</strong> Market Research and Content analysis, Business Development Strategy,
+                        Start up and Market Penetration, Internal and External Business Assessment.
+
+                        <strong>Communication Training and Sustainable Leadership:</strong> Communication Training, Business
+                        Leadership Development and Change Communication
+                        {{--  --}}
+                    </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Dibiz Solutions Area -->
 
 
 

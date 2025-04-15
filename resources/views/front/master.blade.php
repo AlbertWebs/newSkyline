@@ -22,20 +22,41 @@
         <link rel="stylesheet" href="{{asset('theme/assets/css/responsive.css')}}">
         <link rel="icon" type="image/png" href="{{asset('theme/assets/img/favicon.png')}}">
         <!-- SEO -->
-        <title>Skyline PR - Public Relations Firm In Kenya | Digital Marketing | Skyline Pr And Consultancy</title>
+        {{-- <title>Skyline PR - Public Relations Firm in Kenya | Digital Marketing | Skyline PR and Consultancy</title> --}}
+
+        <!-- Basic Meta Tags -->
+        <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Corporate Branding and Management, Advocacy Communications, Brand Communication and Publicity, Media Relations,  public relations training and education and More">
-        <link rel="canonical" href="skylinepublicrelations.com"/>
+        <meta name="description" content="Skyline PR and Consultancy is a leading public relations firm in Kenya, specializing in corporate branding, advocacy communications, media relations, digital marketing, and PR training." />
+        <meta name="keywords" content="Public Relations Kenya, Digital Marketing Kenya, Media Relations, Brand Communication, Corporate Branding, PR Training Kenya, Skyline PR, PR Consultancy Kenya" />
+        <meta name="author" content="Skyline PR and Consultancy" />
+        <link rel="canonical" href="https://skylinepublicrelations.com/" />
 
-        <meta property="og:description" content="Corporate Branding and Management, Advocacy Communications, Brand Communication and Publicity, Media Relations, public relations training and education and More" />
-        <meta property="og:title" content="Skyline Pr And Consultancy - Public Relations Firm In Kenya | Digital Marketing" />
-        <meta property="og:type" content="articles" />
-        <meta property="og:url" content="skylinepublicrelations.com" />
-        <meta property="og:image" content="https://skylinepublicrelations.com/uploads/logo/skylineLogo.png')}}" />
+        <!-- Open Graph / Facebook Meta Tags -->
+        <meta property="og:title" content="Skyline PR and Consultancy - Leading Public Relations Firm in Kenya | Digital Marketing" />
+        <meta property="og:description" content="We specialize in Corporate Branding, Advocacy Communications, Brand Communication and Publicity, Media Relations, and PR Training." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://skylinepublicrelations.com/" />
+        <meta property="og:image" content="https://skylinepublicrelations.com/uploads/logo/skylineLogo.png" />
+        <meta property="og:site_name" content="Skyline PR and Consultancy" />
 
-        <meta name="twitter:title" content="Skyline Pr And Consultancy - Public Relations Firm In Kenya | Digital Marketing" />
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Skyline PR and Consultancy - Leading PR Firm in Kenya | Digital Marketing" />
+        <meta name="twitter:description" content="Corporate Branding, Advocacy Communications, Media Relations, and PR Training from Kenya’s top public relations firm." />
+        <meta name="twitter:image" content="https://skylinepublicrelations.com/uploads/logo/skylineLogo.png" />
         <meta name="twitter:site" content="@skylinePr" />
+        <meta name="twitter:creator" content="@skylinePr" />
+
+        <!-- Google Site Verification -->
         <meta name="google-site-verification" content="oybQVWDBZuuEWNr0zgCeOMqzZMX4nQit_qtAKk6OHBE" />
+
+        <!-- Favicon (optional but recommended) -->
+        <link rel="icon" href="/uploads/logo/favicon.ico" type="image/x-icon" />
+
+        <!-- Robots Meta Tag (optional: helps guide search engines) -->
+        <meta name="robots" content="index, follow" />
+
         <!-- SEO -->
     </head>
     <body>
