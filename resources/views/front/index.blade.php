@@ -322,16 +322,16 @@
                     <a href="#"><img src="{{url('/')}}/uploads/clients/ELI_logoHorz_onblue crop.png" alt="image"></a>
                 </div>
             </div>
-            {{-- <div class="col-lg-2 col-6 col-sm-4 col-md-4">
+            <div class="col-lg-2 col-6 col-sm-4 col-md-4">
                 <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
                     <a href="#"><img src="{{url('/')}}/uploads/clients/imsk-kenya-logo-e1693146781864-120x134.png" alt="image"></a>
                 </div>
-            </div> --}}
-            {{-- <div class="col-lg-2 col-6 col-sm-4 col-md-4">
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 col-md-4">
                 <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
-                    <a href="#"><img src="{{url('/')}}/uploads/clients/Designekta-Enterprises-logo-profile.jpg" alt="image"></a>
+                    <a href="#"><img src="{{url('/')}}/uploads/clients/Business-For-Life-Logo-Transparent.png" alt="image"></a>
                 </div>
-            </div> --}}
+            </div>
 
 
             <div class="col-lg-2 col-6 col-sm-4 col-md-4">
@@ -350,6 +350,14 @@
                     <a href="#"><img src="{{url('/')}}/uploads/clients/LogoWebRetina.png" alt="image"></a>
                 </div>
             </div>
+
+            <div class="col-lg-2 col-6 col-sm-4 col-md-4">
+                <div class="dibiz-partner-item wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                    <a href="#"><img src="{{url('/')}}/uploads/clients/WMLogo.png" alt="image"></a>
+                </div>
+            </div>
+
+
 
 
 
