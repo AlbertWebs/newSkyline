@@ -66,7 +66,7 @@
                 <div class="container-fluid">
                     <div class="dibiz-responsive-menu">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="{{url('/')}}">
                                 <img width="145" src="{{asset('theme/assets/img/logo/Skyline-logo.png')}}" class="main-logo" alt="logo">
                                 <img width="145" src="{{asset('theme/assets/img/logo/Skyline-white-logo.png')}}" class="white-logo" alt="logo">
                             </a>
@@ -78,7 +78,7 @@
             <div class="dibiz-nav">
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="{{url('/')}}">
                             <img width="145" src="{{asset('theme/assets/img/logo/Skyline-logo.png')}}" class="main-logo" alt="logo">
                             <img width="145" src="{{asset('theme/assets/img/logo/Skyline-white-logo.png')}}" class="white-logo" alt="logo">
                         </a>
@@ -199,7 +199,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
-                        <a href="index.html" class="logo">
+                        <a href="{{url('/')}}" class="logo">
                             <img src="{{asset('theme/assets/img/logo/Skyline-white-logo.png')}}" alt="logo">
                         </a>
                         <p>
