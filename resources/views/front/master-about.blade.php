@@ -34,15 +34,15 @@
         <meta property="og:description" content="We specialize in AI-driven marketing, PR, and digital strategy for business development and leadership in Africa. Discover market entry, expansion, and growth opportunities.">
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://www.skylineprgroup.com/about-us">
-        <meta property="og:image" content="https://www.skylineprgroup.com/assets/about-banner.jpg"> <!-- Replace with actual image path -->
+        <meta property="og:image" content="https://skylinepublicrelations.com/theme/assets/img/ICI-Career-in-Public-Relations-and-Media.jpg">
         <meta property="og:site_name" content="Skyline PR Group">
 
         <!-- ✅ Twitter Card Meta Tags -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Skyline PR Group | AI Marketing & Business Growth Africa">
         <meta name="twitter:description" content="Explore PR, AI marketing, and leadership solutions for strategic growth across Africa.">
-        <meta name="twitter:image" content="https://www.skylineprgroup.com/assets/about-banner.jpg"> <!-- Replace with actual image path -->
-        <meta name="twitter:site" content="@SkylinePRGroup"> <!-- Replace with actual handle if available -->
+        <meta name="twitter:image" content="https://skylinepublicrelations.com/theme/assets/img/ICI-Career-in-Public-Relations-and-Media.jpg">
+        <meta name="twitter:site" content="@SkylinePRGroup">
 
         <!-- ✅ Schema Markup (JSON-LD) -->
         <script type="application/ld+json">
@@ -50,12 +50,12 @@
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "Skyline PR Group",
-        "url": "https://www.skylineprgroup.com",
-        "logo": "https://www.skylineprgroup.com/assets/logo.png",  <!-- Replace with your logo -->
+        "url": "https://www.skylineprgroup.com/about-us",
+        "logo": "https://skylinepublicrelations.com/theme/assets/img/logo/Skyline-white-logo.png",
         "sameAs": [
-            "https://www.linkedin.com/company/skylineprgroup",  <!-- Add actual social links -->
-            "https://twitter.com/SkylinePRGroup",
-            "https://www.facebook.com/SkylinePRGroup"
+            "https://www.linkedin.com/company/skyline-public-relations-agency",
+            "https://www.instagram.com/skylinepublicrelations/"
+
         ],
         "description": "Skyline PR Group is a Pan-African agency offering PR, AI Marketing Solutions, and Digital Marketing. We help businesses with market entry, expansion, and strategic partnerships across Africa.",
         "address": {
@@ -65,7 +65,7 @@
         },
         "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+234-800-123-4567",  <!-- Replace with actual contact -->
+            "telephone": "+254 710 760015",
             "contactType": "Customer Service"
         }
         }
