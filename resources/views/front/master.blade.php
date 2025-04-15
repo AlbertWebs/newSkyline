@@ -22,7 +22,7 @@
         <link rel="stylesheet" href="{{asset('theme/assets/css/responsive.css')}}">
         <link rel="icon" type="image/png" href="{{asset('theme/assets/img/favicon.png')}}">
         <!-- SEO -->
-        {{-- <title>Skyline PR - Public Relations Firm in Kenya | Digital Marketing | Skyline PR and Consultancy</title> --}}
+        <title>Skyline PR and Consultancy - Leading Public Relations Firm in Kenya | Digital Marketing</title>
 
         <!-- Basic Meta Tags -->
         <meta charset="UTF-8" />
