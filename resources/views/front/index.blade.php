@@ -128,15 +128,17 @@
                     <span>About Us</span>
                     <h3>Where Communication Meets the Horizon: Skyline Group</h3>
                     <p>
-                        Skyline PR Group is a leading Pan-African Integrated Marketing Communications (IMC) and
-                        Creative Agency specializing in Public Relations, Marketing, Digital communication, and
-                        Creative Communication. Our mission is to empower businesses and brands across the
-                        continent by delivering impactful PR strategies, innovative creative solutions, and tailored
-                        marketing campaigns, all grounded in sustainable leadership principles.
-                        <br><br>
-                        By harnessing our expansive global networks, cutting-edge business intelligence, and deep
-                        market expertise, we deliver tailored solutions that drive impact and unlock growth. At Skyline
-                        PR Group, we don’t just secure your brand’s future—we elevate and amplify it to new heights.
+                        <div>
+                            Skyline PR Group is a full-service Pan-African Integrated Marketing Communications (IMC)
+                            and Creative Agency offering a full spectrum of services in Strategic Communication, Public
+                            Relations, AI Driven Digital communication, Customer-centric marketing solutions, and
+                            Creative Communication. Our mission is to empower businesses and brands across the
+                            continent by delivering impactful PR strategies, innovative creative solutions, and tailored
+                            marketing campaigns, all grounded in sustainable leadership principles.
+                          </div>
+
+
+
                     </p>
 
                     <ul class="accordion">

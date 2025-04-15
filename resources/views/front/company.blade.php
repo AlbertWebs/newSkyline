@@ -1,6 +1,8 @@
-@extends('front.master-pages')
+@extends('front.master-about')
 
 @section('content')
+<h1 style="display:none">Empowering Brands Through PR, AI Marketing & Strategic Growth in Africa</h1>
+
 <!-- Start Page Title Area -->
 <section class="page-title-area page-banner-area" style="background-image: url('{{url('/')}}/theme/assets/img/ICI-Career-in-Public-Relations-and-Media.jpg');
     background-position: center center;
@@ -42,9 +44,29 @@
                         Corporate Branding Beyond Africa
                     </h3>
                     <p>
-                        Skyline PR Group is a leading Pan-African Integrated Marketing Communications (IMC) and Creative Agency specializing in Public Relations, Marketing, Digital communication, and Creative Communication. Our mission is to empower businesses and brands across the continent by delivering impactful PR strategies, innovative creative solutions, and tailored marketing campaigns, all grounded in sustainable leadership principles.
-                     <br><br>
-                        By harnessing our expansive global networks, cutting-edge business intelligence, and deep market expertise, we deliver tailored solutions that drive impact and unlock growth. At Skyline PR Group, we don’t just secure your brand’s future—we elevate and amplify it to new heights.
+                        <div>
+                            Skyline PR Group is a full-service Pan-African Integrated Marketing Communications (IMC)
+                            and Creative Agency offering a full spectrum of services in Strategic Communication, Public
+                            Relations, AI Driven Digital communication, Customer-centric marketing solutions, and
+                            Creative Communication. Our mission is to empower businesses and brands across the
+                            continent by delivering impactful PR strategies, innovative creative solutions, and tailored
+                            marketing campaigns, all grounded in sustainable leadership principles.
+                          </div>
+                          <br>
+
+                          <div>
+                            With a strong foundation in cutting-edge technology, Skyline PR Group leverages AI-driven
+                            marketing solutions to provide data-backed insights, hyper-personalized campaigns, and
+                            predictive analytics that enhance decision-making and maximize brand impact.
+                          </div> <br>
+
+                          <div>
+                            By harnessing our expansive global networks, cutting-edge business intelligence, advanced
+                            AI-driven marketing, and deep market expertise, we deliver tailored solutions that drive
+                            impact and unlock growth. At Skyline PR Group, we don’t just secure your brand’s future—we
+                            elevate and amplify it to new heights.
+                          </div>
+
                     </p>
 
                     <ul class="accordion">
@@ -114,9 +136,9 @@
 
    <!-- Start Dibiz Solutions Area -->
    <div class="dibiz-solutions-area ptb-100">
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-lg-6 col-md-12">
+    <div class="container" style="margin:0 auto">
+        <div class="row align-items-centers" style="margin:0 auto">
+            {{-- <div class="col-lg-6 col-md-12">
                 <div class="dibiz-solutions-image">
                     <img class="border-radius" src="{{asset('theme/assets/img/pexels-pixabay-265087.jpg')}}" alt="image">
 
@@ -124,28 +146,28 @@
                         <i class="flaticon-play-button"></i>
                     </a>
                 </div>
-            </div>
+            </div> --}}
 
-            <div class="col-lg-6 col-md-12">
-                <div class="dibiz-solutions-content">
+            <div class="col-lg-10  col-md-12" style="margin:0 auto">
+                <div class="dibiz-solutions-contents">
                     <span>Our areas of expertise include :</span>
 
                     <p>
                         {{--  --}}
-                        We specialize in delivering tailored <strong> public relations, content creation, digital communication,
-                        and marketing solutions for businesses, NGOs, sports, and entertainment industries, both
-                        locally and globally</strong>. We focus on enhancing brand positioning, increasing brand visibility,
-                        crafting compelling narratives, and building strategic relationships to elevate your presence in
-                        the market.
-                        <br><br>
+                        We specialize in delivering tailored <strong> public relations campaigns, content creation, digital
+                        communication, and AI marketing solutions for businesses, NGOs, sports, and
+                        entertainment industries, both locally and globally.</strong> We focus on enhancing brand positioning,
+                        increasing brand visibility, crafting compelling narratives, and building strategic relationships to
+                        elevate your presence in the market.<br><br>
 
-                        <strong>PR and Marketing Communication services:</strong> Corporate Branding, Market research, Digital
-                        communication and Digital marketing, Social media communication, Public relations campaigns,
-                        Media Relations, Advertising campaigns, Creative design and video production, Website design,
-                        Advocacy communication, Events Branding and CSR.<br><br>
+                        <strong>PR and Marketing Communication services:</strong> Market research, Corporate Branding, Digital
+                        marketing, AI-Driven Marketing and Digital Communication,, Social media Management,
+                        Public relations campaigns, Media communication, Influencer PR and Marketing, Advertising
+                        campaigns, Creative design and video production, Website design and Optimization, Advocacy
+                        communication, Events Branding and Corporate Social Responsibility (CSR)<br><br>
 
-                        <strong>Business Development:</strong> Market Research and Content analysis, Business Development Strategy,
-                        Start up and Market Penetration, Internal and External Business Assessment.
+                        <strong>Business Development:</strong> Market Research and Content analysis, Business Development
+                        Strategy, Start up and Market Penetration, Internal and External Business Assessment.<br><br>
 
                         <strong>Communication Training and Sustainable Leadership:</strong> Communication Training, Business
                         Leadership Development and Change Communication
